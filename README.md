@@ -20,13 +20,13 @@ This project aims to detect COVID-19 cases from chest X-ray images using the Swi
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/Rozajalilipour/TumorDetectAI.git
+   git clone https://github.com/MahtabRanjbar/covid-detection-Swin-Transormers.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd Brain-tumor-detection-app
+   cd covid-detection-Swin-Transormers 
 
    ```
 
@@ -56,7 +56,7 @@ To run the project, follow these steps:
 6. for ease of use and not installing all neccessary packages and having no conflict, you can see the  [notebook](notebooks/braintumordetection.ipynb) of project
 ---
 ## Dataset
-The dataset used for training and testing the model is the Chest X-ray Dataset from [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection). It contains a collection of chest X-ray images in two categories: COVID-19 positive and normal. To use this dataset, download the dataset from provided link.
+The dataset used for training and testing the model is the Chest X-ray Dataset from [Kaggle](https://www.kaggle.com/datasets/andyczhao/covidx-cxr2). It contains a collection of chest X-ray images in two categories: COVID-19 positive and normal. To use this dataset, download the dataset from provided link.
 
 The dataset has been split into three subsets: train set, validation set, and test set. The sizes of each subset are as follows:
 
