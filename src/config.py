@@ -13,7 +13,7 @@ class Config:
     final_activation = "softmax"
     entropy = "sparse_categorical_crossentropy"
     n_classes = 2
-    EPOCHS = 3  # 120
+    EPOCHS = 10  # 120
     patience = 3
     start_lr = 0.00001
     min_lr = 0.00001

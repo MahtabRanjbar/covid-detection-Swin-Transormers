@@ -51,19 +51,17 @@ To run the project, follow these steps:
 
 4. The Swin Transformer model will be built and trained using the training data. The model will be evaluated using the testing data, and the performance metrics will be displayed, including a confusion matrix and classification report.
 
-5. The best-performing model will be saved in the model_dir directory as best_model.h5.
 
-6. for ease of use and not installing all neccessary packages and having no conflict, you can see the  [notebook](notebooks/braintumordetection.ipynb) of project
+ <!--- 6. for ease of use and not installing all neccessary packages and having no conflict, you can see the  [notebook](notebooks/braintumordetection.ipynb) of project/ ---> 
+
+
 ---
 ## Dataset
 The dataset used for training and testing the model is the Chest X-ray Dataset from [Kaggle](https://www.kaggle.com/datasets/andyczhao/covidx-cxr2). It contains a collection of chest X-ray images in two categories: COVID-19 positive and normal. To use this dataset, download the dataset from provided link.
 
-The dataset has been split into three subsets: train set, validation set, and test set. The sizes of each subset are as follows:
+The dataset has been split into three subsets: train set, validation set, and test set.
 
-- Train set size: 161
-- Validation set size: 41
-- Test set size: 51
----
+----
 ## Model
 
 The Swin Transformer model is a state-of-the-art architecture that combines the strengths of transformers and convolutional neural networks (CNNs) for image classification tasks. It introduces a hierarchical architecture that divides the image into patches and processes them with self-attention mechanisms. This allows the model to capture global and local dependencies effectively, enabling robust feature representation.
@@ -73,26 +71,29 @@ The Swin Transformer model used in this project is implemented using TensorFlow 
 ---
 ## Evaluation Metrics
 After training and testing the brain tumor detection model, several evaluation metrics have been computed to assess its performance. These evaluation metrics provide insights into the model's effectiveness in detecting covid-19. The metrics include accuracy, F1 score, recall, and precision.
+Accuracy: 0.9616059675296182
+F1 Score: 0.9615602291579607
+Recall: 0.9616059675296182
+Precision: 0.961933608955106
 
+| Metric     |    Value     |
+|------------|--------------|
+| Accuracy   | 0.96160596   |
+| F1 Score   | 0.96156022   |
+| Recall     | 0.96160596   |
+| Precision  | 0.96193360   |
 
-| Metric     | Value     |
-|------------|-----------|
-| Accuracy   | 0.9019    |
-| F1 Score   | 0.9002    |
-| Recall     | 0.9019    |
-| Precision  | 0.9054    |
+For further evaluation metrics and details, please check the [reports](reports/)  folder
 
-For further evaluation metrics and details, please check the [reports](reports/README.md)  folder.
-
-
-
+---
 ## Contributing
 Contributions are always welcome! If you have any ideas or suggestions, please feel free to open an issue or a pull request.
 
+--- 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information
 
-
+---
 ## Contact
 If you have any questions or comments about this project, please feel free to contact me at mahtabranjbar93@gmail.com
 
