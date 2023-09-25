@@ -78,10 +78,10 @@ Precision: 0.961933608955106
 
 | Metric     |    Value     |
 |------------|--------------|
-| Accuracy   | 0.96160596   |
-| F1 Score   | 0.96156022   |
-| Recall     | 0.96160596   |
-| Precision  | 0.96193360   |
+| Accuracy   | 0.971478718  |
+| F1 Score   | 0.971472654  |
+| Recall     | 0.971478718  |
+| Precision  | 0.971485011  |
 
 For further evaluation metrics and details, please check the [reports](reports/)  folder
 
