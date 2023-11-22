@@ -71,10 +71,6 @@ The Swin Transformer model used in this project is implemented using TensorFlow 
 ---
 ## Evaluation Metrics
 After training and testing the brain tumor detection model, several evaluation metrics have been computed to assess its performance. These evaluation metrics provide insights into the model's effectiveness in detecting covid-19. The metrics include accuracy, F1 score, recall, and precision.
-Accuracy: 0.9616059675296182
-F1 Score: 0.9615602291579607
-Recall: 0.9616059675296182
-Precision: 0.961933608955106
 
 | Metric     |    Value     |
 |------------|--------------|
